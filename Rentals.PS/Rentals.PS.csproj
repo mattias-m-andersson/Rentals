@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <!--<Nullable>enable</Nullable> Available in netstandard2.1+ and C# 8-->
+	  <AssemblyName>Rentals.PS</AssemblyName>
+	  <RootNamespace>Rentals.PS</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PowerShellStandard.Library" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookingService\BookingService.csproj" />
+    <ProjectReference Include="..\JsonFileBookingStore\JsonFileBookingStore.csproj" />
+  </ItemGroup>
+
+</Project>

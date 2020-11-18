@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "RentalsCmdLet": {
+      "commandName": "Project"
+    },
+    "PowerShell Core": {
+      "commandName": "Executable",
+      "executablePath": "pwsh",
+      "commandLineArgs": "-noexit -command \"&{import-module $(TargetPath) -Verbose -Prefix Rentals}\""
+    }
+  }
+}

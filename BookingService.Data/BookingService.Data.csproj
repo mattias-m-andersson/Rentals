@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>BookingService.Data</RootNamespace>
+    <AssemblyName>BookingService.Data</AssemblyName>
+  </PropertyGroup>
+
+</Project>
